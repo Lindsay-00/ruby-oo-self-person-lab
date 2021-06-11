@@ -50,19 +50,8 @@ class Person
 
     def take_bath
         self.hygiene += 4
-        
-
         "♪ Rub-a-dub just relaxing in the tub ♫"
     end
-
-    
-
-    # def hygiene= (new)
-    #     @hygiene = new
-    #     if @hygiene > 10
-    #         @hygiene = 10
-    #     end
-    # end
 
     def work_out
         self.hygiene -= 3
